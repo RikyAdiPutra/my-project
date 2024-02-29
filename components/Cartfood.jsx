@@ -11,7 +11,7 @@ export default function CartFood() {
                 <h2 className="font-bold text-[20px] text-white">Rp. 10.000</h2>
                 <p className="font-medium text-[16px] text-white">Potongan daging ayam kemudian ditusuk dan dibakar dengan bumbu kecap</p>
             </div>
-            <div className="absolute -bottom-6 left-24">
+            <div className="absolute -bottom-6 left-[110px]">
                 <CartDec />
             </div>
         </div>
