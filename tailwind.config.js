@@ -14,7 +14,9 @@ module.exports = {
       },
       colors: {
         "black-c": "#24292D",
+        "black-c-two": "#151A1E",
         "orange-c": "#FBA834",
+        "custom-satu": "rgba(255, 255, 255, 0.15)"
       },
       fontFamily: {
         "Montserrat": ["Montserrat"]

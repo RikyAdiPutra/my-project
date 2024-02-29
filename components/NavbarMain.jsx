@@ -5,10 +5,10 @@ import Cart from "./Cart";
 
 export default function NavbarMain() {
     return (
-        <div className="flex justify-between items-center bg-black-c ">
+        <div className="flex justify-between items-center bg-black-c-two py-5">
             <CiSearch className="text-white text-[25px]" />
             <h3 className="font-bold text-[32px] text-white">Menuku.id</h3>
-            <Cart />
+            <Cart className="text-[36px]" />
         </div>
     )
 }

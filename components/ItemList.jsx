@@ -1,13 +1,14 @@
 import React from "react"
 import Image from "next/image"
+import Link from "next/link"
 
-export default function ItemList() {
+export default function ItemList(props) {
     return (
-        <div className="w-[135px] h-[131px]">
-            <div className="bg-orange-500 w-[135px] h-[131px] rounded-3xl flex justify-center items-center mb-4">
-                <Image src="/images/list-one.png" width={75} height={75} alt="" />
+        <Link href="/menubook">
+            <div className="bg-black-c-two hover:bg-orange-c hover:border-transparent border-white border-2 w-[135px] h-[131px] rounded-3xl flex justify-center items-center">
+                <Image src={`${props.image ? props.image : "/images/image-not-found.jpg"}`} width={props.width} height={props.height} alt="" />
             </div>
-            <p className="font-medium text-[16px] text-center">Menu Book</p>
-        </div>
+            <p className="font-medium text-[16px] text-center mt-4 text-white">{props.title ? props.title : "Title Not Found"}</p>
+        </Link>
     )
 }

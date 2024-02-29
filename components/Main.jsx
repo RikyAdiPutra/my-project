@@ -5,8 +5,6 @@ import Mainbanner from "./Mainbanner"
 export default function Main() {
     return (
         <div>
-            THIS IS HOME
-            <NavbarMain />
             <Mainbanner />
         </div>
     )
