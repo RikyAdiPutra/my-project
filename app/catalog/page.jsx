@@ -5,7 +5,7 @@ import Composition from "@/components/Composition"
 
 export default function CatalogMenu() {
     return (
-        <div className="container wrapper bg-black-c-two">
+        <div className="container wrapper bg-gradient-to-r from-[#24292D] to-[#151A1E]">
             <Image src="/images/catalog-item.png" width={1024} height={686} alt="" />
             <div className="w-[887px] container text-white">
                 <div>

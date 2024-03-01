@@ -35,12 +35,12 @@ export default function Mainbanner() {
                 <p className="font-medium text-[14px]">See Details</p>
             </div>
             <div className="flex flex-wrap justify-between">
-                <CartFood />
-                <CartFood />
-                <CartFood />
-                <CartFood />
-                <CartFood />
-                <CartFood />
+                <CartFood src="/images/item-one.png" width={279} height={297} title="Sate Ayam" price="Rp. 10.000" />
+                <CartFood src="/images/item-four.png" width={279} height={297} title="Rendang" price="Rp. 20.000" />
+                <CartFood src="/images/item-five.png" width={279} height={297} title="Bakso" price="Rp. 10.000" />
+                <CartFood src="/images/item-one.png" width={279} height={297} title="Sate Ayam" price="Rp. 10.000" />
+                <CartFood src="/images/item-four.png" width={279} height={297} title="Rendang" price="Rp. 20.000" />
+                <CartFood src="/images/item-five.png" width={279} height={297} title="Bakso" price="Rp. 10.000" />
             </div>
         </div>
     )

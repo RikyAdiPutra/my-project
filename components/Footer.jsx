@@ -3,7 +3,7 @@ import Cart from "./Cart"
 
 export default function Footer() {
     return (
-        <div className="container wrapper flex items-center justify-around py-4 bg-black-c">
+        <div className="container wrapper flex items-center justify-around py-4 bg-[#24292D]">
             <div>
                 <Cart />
             </div>

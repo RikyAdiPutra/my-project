@@ -7,7 +7,7 @@ import Mainbanner from "@/components/Mainbanner";
 
 export default function Home() {
     return (
-        <main className="container wrapper bg-black-c-two flex justify-center">
+        <main className="container wrapper bg-gradient-custom flex justify-center">
             <Mainbanner />
         </main>
     );
