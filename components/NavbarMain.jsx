@@ -1,13 +1,14 @@
 import React from "react"
-import { CiSearch } from "react-icons/ci";
 import Cart from "./Cart";
+import { FaArrowLeft } from "react-icons/fa";
 
 
-export default function NavbarMain() {
+
+export default function NavbarMain(props) {
     return (
         <div className="flex justify-between items-center bg-black-c-two py-5">
-            <CiSearch className="text-white text-[25px]" />
-            <h3 className="font-bold text-[32px] text-white">Menuku.id</h3>
+            <div>{props.icon ? props.icon : null}</div>
+            <h3 className="font-bold text-[32px] text-white">{props.title ? props.title : null}</h3>
             <Cart className="text-[36px]" />
         </div>
     )
